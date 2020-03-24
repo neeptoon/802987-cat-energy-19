@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Евгений Шеханов](https://up.htmlacademy.ru/adaptive/19/user/802987).
-* Наставник: `Неизвестно`.
+- Студент: [Евгений Шеханов](https://up.htmlacademy.ru/adaptive/19/user/802987).
+- Наставник: `Кексобот`.
 
 ---
 
