@@ -1,0 +1,62 @@
+.form__heading {
+  margin: 0 0 40px;
+  padding: 40px 0 0;
+
+  font-size: 34px;
+}
+
+.form__desc {
+  margin: 0 0 40px;
+
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.form__person {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0 0 25px;
+
+  border: none;
+}
+
+.form__label {
+  display: flex;
+  margin: 0 0 17px;
+  align-items: baseline;
+
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.form__field {
+  width: 100%;
+  margin-left: 12px;
+  padding: 10px 15px;
+}
+
+.form__programms {
+  position: relative;
+  padding: 10px 0 0;
+
+  border: none;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 1px;
+    left: 50%;
+    transform: translate(-50%);
+    top: -18px;
+
+    background-color: $line-color;
+  }
+
+  &::after {
+    top: 140px;
+  }
+}
