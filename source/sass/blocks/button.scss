@@ -18,8 +18,4 @@
   &:active {
     color: $primary-button-textcolor-hover;
   }
-
-  @media (min-width: $tabletWidth) {
-    // justify-content: start;
-  }
 }
