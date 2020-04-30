@@ -2,7 +2,9 @@
    ========================================================================== */
 
 // Font
-$mainFont: "Oswald", "Arial", sans-serif;
+$mainFont: "Oswald",
+  "Arial",
+  sans-serif;
 
 // Size
 $mainFontColor: #000000;
@@ -13,10 +15,12 @@ $mainLineHeight: 18px;
 $desktopWidth: 1300px;
 $tabletWidth: 768px;
 $phoneWidth: 320px;
+$only-phone-width: 767px;
 
 $mobilePadding: 20px;
 $tabletPadding: 30px;
 $desktopPadding: 100px;
+
 
 /*
  All colors taken from:

@@ -14,19 +14,54 @@
   border: none;
   background-color: transparent;
 
-  &::before {
-    content: "";
+    &::before {
+      content: "";
 
-    position: absolute;
-    top: 2px;
-    right: 2px;
+      position: absolute;
+      top: 2px;
+      right: 2px;
 
-    width: 25px;
-    height: 3px;
+      width: 25px;
+      height: 3px;
 
-    background-color: $main-color;
-    box-shadow: 0 8px 0 0 $main-color, 0 16px 0 0 $main-color;
+      background-color: $main-color;
+      box-shadow: 0 8px 0 0 $main-color, 0 16px 0 0 $main-color;
+    }
+
+      &--no-js {
+        display: none;
+      }
+
+
+  &--opened {
+    &::before {
+      content: "";
+
+      position: absolute;
+      top: 11px;
+      left: 0;
+      transform: rotate(45deg);
+      width: 30px;
+      height: 3px;
+
+      background-color: $main-color;
+       box-shadow: none;
+    }
+
+    &::after {
+      content: "";
+
+      position: absolute;
+      top: 11px;
+      left: 0;
+      transform: rotate(-45deg);
+      width: 30px;
+      height: 3px;
+
+      background-color: $main-color;
+    }
   }
+
 
   &:hover,
   &:focus {
