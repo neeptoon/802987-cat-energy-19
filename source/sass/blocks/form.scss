@@ -199,7 +199,7 @@ form[name="main-form"] {
 }
 
 .form__programms-field {
-  &:hover+.form__programms-box {
+  &:hover + .form__programms-box {
     position: absolute;
     top: 12px;
     left: 7px;
@@ -221,7 +221,7 @@ form[name="main-form"] {
     }
   }
 
-  &+.form__programms-box {
+  & + .form__programms-box {
     position: absolute;
     top: 12px;
     left: 7px;
@@ -243,7 +243,7 @@ form[name="main-form"] {
     }
   }
 
-  &:checked:hover+.form__programms-box {
+  &:checked:hover + .form__programms-box {
     position: absolute;
     top: 12px;
     left: 7px;
@@ -265,7 +265,7 @@ form[name="main-form"] {
     }
   }
 
-  &:checked+.form__programms-box {
+  &:checked + .form__programms-box {
     position: absolute;
     top: 12px;
     left: 7px;
@@ -467,7 +467,7 @@ form[name="main-form"] {
 }
 
 .form__add-field {
-  &:hover+.form__add-box {
+  &:hover + .form__add-box {
     position: absolute;
     top: 12px;
     left: 7px;
@@ -485,7 +485,7 @@ form[name="main-form"] {
     }
   }
 
-  &+.form__add-box {
+  & + .form__add-box {
     position: absolute;
     top: 12px;
     left: 7px;
@@ -503,7 +503,7 @@ form[name="main-form"] {
     }
   }
 
-  &:checked:hover+.form__add-box {
+  &:checked:hover + .form__add-box {
     position: absolute;
     top: 12px;
     left: 7px;
@@ -520,7 +520,7 @@ form[name="main-form"] {
     }
   }
 
-  &:checked+.form__add-box {
+  &:checked + .form__add-box {
     position: absolute;
     top: 12px;
     left: 7px;
@@ -591,7 +591,7 @@ form[name="main-form"] {
   }
 }
 
-.form__add-wrapper>.form__label {
+.form__add-wrapper > .form__label {
   width: 100%;
   padding-left: 45px;
   margin-bottom: 0;
